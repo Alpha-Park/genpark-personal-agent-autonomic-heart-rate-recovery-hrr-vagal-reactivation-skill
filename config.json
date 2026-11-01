@@ -1,0 +1,7 @@
+{
+  "engine": "genpark-mcp-kernel-v1",
+  "skill_id": 360,
+  "skill_name": "genpark-personal-agent-autonomic-heart-rate-recovery-hrr-vagal-reactivation-skill",
+  "vendor": "GenPark AI",
+  "endpoint": "https://www.genpark.ai/api/v1/skills"
+}
