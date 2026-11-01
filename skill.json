@@ -1,0 +1,22 @@
+{
+  "name": "genpark-personal-agent-autonomic-heart-rate-recovery-hrr-vagal-reactivation-skill",
+  "version": "1.0.0",
+  "description": "Post-exercise 1-minute Heart Rate Recovery (HRR1, bpm) parasympathetic vagal reactivation & cardiac autonomic mortality index.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "evaluate_heart_rate_recovery_vagal_tone",
+      "description": "Post-exercise 1-minute Heart Rate Recovery (HRR1, bpm) parasympathetic vagal reactivation & cardiac autonomic mortality index.",
+      "sample_input": {
+        "peak_exercise_hr_bpm": 172,
+        "hr_at_1min_recovery_bpm": 146,
+        "hr_at_2min_recovery_bpm": 128,
+        "protocol": "UPRIGHT_TREADMILL"
+      }
+    }
+  ]
+}
